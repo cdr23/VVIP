@@ -227,7 +227,7 @@ echo -e "═══════════════════════�
     echo "1. Use Domain From Script / Gunakan Domain Dari Script"
     echo "2. Choose Your Own Domain / Pilih Domain Sendiri"
     echo -e "${red}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
-    read -rp "Choose Your Domain Installation : " dom 
+    read -rp "Choose Your Domain Installation : " $dom 
 
     if test $dom -eq 1; then
     clear
