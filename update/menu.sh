@@ -1,6 +1,6 @@
 #!/bin/bash
 # =========================================
-BOT="https://raw.githubusercontent.com/cdr23/src/ipuk/"
+BOT="https://raw.githubusercontent.com/myridwan/src/ipuk/"
 UPDATE="https://raw.githubusercontent.com/cdr23/VVIP/ipuk/update/update.sh"
 GREEN='\033[0;32m'
 RED='\033[0;31m'
