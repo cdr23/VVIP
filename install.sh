@@ -219,7 +219,6 @@ echo -e "${red}━━━━━━━━━━━━━━━━━━━━━�
 read -rp "Choose Your Domain Installation : " dom 
 
 if test $dom -eq 1; then
-clear
 apt install jq curl -y
 wget -q -O /root/cf "${CDNF}/cf" >/dev/null 2>&1
 chmod +x /root/cf
