@@ -1,7 +1,7 @@
 #!/bin/bash
 # =========================================
 BOT="https://raw.githubusercontent.com/myridwan/src/ipuk/"
-UPDATE="https://raw.githubusercontent.com/myridwan/VVIP/ipuk/update/update.sh"
+UPDATE="https://raw.githubusercontent.com/cdr23/VVIP/ipuk/update/update.sh"
 GREEN='\033[0;32m'
 RED='\033[0;31m'
 ipsaya=$(wget -qO- ipinfo.io/ip)
@@ -33,11 +33,11 @@ clear
 ISP=$(curl -s ipinfo.io/org | cut -d " " -f 2-10 )
 CITY=$(curl -s ipinfo.io/city )
 MYIP=$(curl -sS ipv4.icanhazip.com)
-Name=$(curl -sS https://raw.githubusercontent.com/myridwan/izinvps/ipuk/ip | grep $MYIP | awk '{print $2}')
+Name=$(curl -sS https://raw.githubusercontent.com/cdr23/izinvps/ipuk/ip | grep $MYIP | awk '{print $2}')
 if [ "$res" = "Expired" ]; then
 Exp="\e[36mExpired\033[0m"
 else
-Exp=$(curl -sS https://raw.githubusercontent.com/myridwan/izinvps/ipuk/ip | grep $MYIP | awk '{print $3}')
+Exp=$(curl -sS https://raw.githubusercontent.com/cdr23/izinvps/ipuk/ip | grep $MYIP | awk '{print $3}')
 fi
 
 # =========================================
